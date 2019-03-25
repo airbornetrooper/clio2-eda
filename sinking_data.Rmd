@@ -1,0 +1,140 @@
+---
+title: "Data_analysis"
+author: "Matthew DiRisio"
+date: "3/18/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(tidyverse)
+library(dplyr)
+library(lubridate)
+library(scales)
+library(readr)
+
+sinking_data <- read_csv("1945-Japanese-Naval-Loses-FINAL.csv")
+sinking_data$date<-as.Date(sinking_data$date, '%Y-%m-%d')
+
+japanese_warship_losses_1945<- sinking_data %>%
+ select(id, agent) %>%
+ mutate(agent = str_split(agent, ",")) %>% unnest()
+
+write.csv(japanese_warship_losses_1945, "sinking_agents_1945.csv")
+sinking_agents <- read_csv("sinking_agents_1945.csv")
+
+sinking_agents %>% 
+  group_by(agent) %>% 
+  summarize(amount= n())
+
+sinking_agents_1945<- sinking_data %>% 
+  left_join(sinking_agents, by = "id")
+
+str(sinking_data)
+
+```
+
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r}
+summary(sinking_data)
+```
+
+```{r}
+#The large number of sinkings in January and July correspond with major US Navy carrier air raids on the Japanese home islands.
+
+sinking_data %>% 
+  group_by(month= floor_date(date, "month")) %>%
+  summarize(amount= n(),
+            total_ton= sum(tonnage),
+            average= sum(tonnage) / amount)
+        
+```
+```{r}
+#Continuing the previous chart's work, this chart is a by day breakdown of the number of sinkings per week. 
+
+sinking_data %>% 
+  group_by(week= floor_date(date, "week")) %>%
+  summarize(amount= n(),
+            total_ton= sum(tonnage),
+            average= sum(tonnage) / amount)
+```
+
+```{r}
+#This chart is a more detailed breakdown of the previous example. By comparing the day to existing records it is easy to match up when US Navy carrier air raids hit Japanese harbors.
+
+sinking_data %>% 
+  group_by(date) %>%
+  summarize(amount= n(),
+            total_ton= sum(tonnage))
+            
+```
+
+```{r}
+#The total number of sinkings by type of vesel illustrates the smaller amount of heavy Japanese warships sunk by Allied forces in 1945. In particular, the large amount of frigates sunk shows that the Japanese Imperial Navy was expending the greatest effort in attempting to escort merchant (as is the task of frigates). Similar large numbers of losses (minesweeper, submarine chaser) tie in to the Allied efforts to strangle Japan's trade through mining and unrestricted submarine warfare.
+
+sinking_data %>% 
+  group_by(type) %>% 
+  summarize(amount = n()) %>% 
+  arrange(desc(amount))
+```
+
+```{r}
+#This line chart shows the drastic spikes in sinkings. All three of the major spikes correlate to US Navy carrier air raids on the Japanese home islands.
+
+sinking_data %>% 
+  group_by(week= floor_date(date, "week")) %>%
+  summarize(amount= n(),
+            total_ton= sum(tonnage),
+            average= sum(tonnage) / amount) %>%
+  ggplot(aes(x= week, y= amount)) + geom_line()
+        
+```
+```{r}
+#This is a messier interpretation of the previous chart breaking it down by day.
+
+sinking_data %>% 
+  group_by(day= floor_date(date, "day")) %>%
+  summarize(amount= n(),
+            total_ton= sum(tonnage),
+            average= sum(tonnage) / amount) %>%
+  ggplot(aes(x= day, y= amount)) + geom_line()
+```
+
+```{r}
+#This is the most successful (and prettiest) chart. The highest observed dots in tonnage all correspond to Japanese battleship losses (which were the largest vessels by tonnage in the Japnese Navy).
+sinking_agents_1945 %>% 
+  ggplot(aes(x= date, y= tonnage, color= agent.y)) + geom_point()
+
+```
+```{r}
+#This chart shows that although US Navy carrier based aircraft only narrowly outperformed submarines in total amount, they drastically outperformed them in total tonnage sunk, largely to sinking four Japanese battleships.
+
+sinking_agents_1945 %>% 
+  group_by(agent.y) %>% 
+  summarize(amount = n(),
+            total_ton= sum(tonnage),
+            average= sum(tonnage) / amount) %>% 
+  arrange(desc(amount))
+```
+
+```{r}
+#This chart is a breakdown of sinkings by US Navy carrier based aircraft only. The spikes all correspond to raids on the Japanese home islands. When not on such raids, their sinking were largely decreased.
+
+sinking_agents_1945 %>% 
+  filter(agent.y == "navy_carrier_based_aircraft") %>% 
+  group_by(week= floor_date(date, "week"),
+           agent.y) %>%
+summarize(amount= n()) %>% 
+  ggplot(aes(x= week, y= amount, color= agent.y)) + geom_line() + geom_point()
+  
+```
+
