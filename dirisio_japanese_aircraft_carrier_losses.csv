@@ -1,0 +1,22 @@
+﻿id_no,ship name,year,ship_type,tonnage,place_of_sinking,sinking_agent,total_fatalities
+1,Kaga,1942,aircraft_carrier,38200,midway,carrier_based_aircraft,811
+2,Akagi,1942,aircraft_carrier,36500,midway,carrier_based_aircraft,267
+3,Hiryu,1942,aircraft_carrier,16200,midway,carrier_based_aircraft,389
+4,Soryu,1942,aircraft_carrier,16200,midway,carrier_based_aircraft,711
+5,Ryūjō ,1942,light_aircraft_carrier,8000,eastern_solomons,carrier_based_aircraft,120
+6,Shōhō ,1942,light_aircraft_carrier,11443,coral_sea,carrier_based_aircraft,631
+7,Chūyō,1943,escort_aircraft_carrier,17830,off_japan,submarine,1260
+8,Shōkaku ,1944,aircraft_carrier,25675,philipine_sea,submarine,1272
+9,Zuikaku,1944,aircraft_carrier,25675,cape_engano,carrier_based_aircraft,843
+10,Taihō,1944,aircraft_carrier,30250,Philipine Sea,submarine,1650
+11,Shinano,1944,aircraft_carrier,68500,off_japan,submarine,1435
+12,Hiyō,1944,light_aircraft_carrier,24150,philipine_sea,carrier_based_aircraft,247
+13,Zuihō,1944,light_aircraft_carrier,11443,cape_engano,carrier_based_aircraft,215
+14,Chiyoda,1944,light_aircraft_carrier,11200,cape_engano,"carrier-based aircraft,cruiser gunfire",1470
+15,Chitose,1944,light_aircraft_carrier,11200,cape_engano,"carrier-based aircraft,cruiser gunfire",903
+16,Taiyō,1944,escort_aircraft_carrier,17830,off_luzon,submarine,790
+17,Un'yō,1944,escort_aircraft_carrier,17830,off_singapore,submarine,800
+18,Shin'yō,1944,escort_aircraft_carrier,17500,east_china_sea,submarine,1130
+19,Akitsu Maru,1944,escort_aircraft_carrier,11800,open_ocean,submarine,2000
+20,Nigitsu Maru,1944,escort_aircraft_carrier,11800,off_okinawa,submarine,574
+21,Shimane Maru,1945,escort_aircraft_carrier,11989,shido_bay,carrier_based_aircraft,0

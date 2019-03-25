@@ -1,0 +1,203 @@
+id,date,name,type,tonnage,x,y,flag,agent,assessment
+1,1945-01-02,COAST DEFENSE VESSEL NO 138,frigate,800,16-37N,120-19E ,united_states,army_aircraft,sunk
+2,1945-01-03,SPECIAL SUBMARINE CHASER NO 10,special_submarine_chaser,100,7-04N,125-37E,united_states,army_aircraft,sunk
+3,1945-01-05,TRANSPORT NO 107,tank_landing_ship,1000,26-27N,141-11E,united_states,surface_craft,sunk
+4,1945-01-05,TRANSPORT NO 154,tank_landing_ship,1000,24-47N,141-20E,united_states,surface_craft,sunk
+5,1945-01-05,MOMI,destroyer,800,14-00N,120-20E,united_states,navy_carrier_based_aircraft,sunk
+6,1945-01-09,COAST DEFENSE VESSEL NO 3,frigate,800,25-10N,121-45E,united_states,navy_carrier_based_aircraft,sunk
+7,1945-01-09,SPECIAL SUBMARINE CHASER NO 96,special_submarine_chaser,100,22-40N,120-00E,united_states,navy_carrier_based_aircraft,sunk
+8,1945-01-09,SUBMARINE CHASER NO 61,submarine_chaser,300,22-40N,120-04E,united_states,navy_carrier_based_aircraft,sunk
+9,1945-01-10,COAST DEFENSE VESSEL NO 42,frigate,800,27-01N,126-34E,united_states,submarine,sunk
+10,1945-01-12,CHIBURI,frigate,900,10-20N,107-50E,united_states,navy_carrier_based_aircraft,sunk
+11,1945-01-12,COAST DEFENSE VESSEL NO 17,frigate,800,10-20N,107-50E,united_states,navy_carrier_based_aircraft,sunk
+12,1945-01-12,COAST DEFENSE VESSEL NO 19,frigate,800,10-20N,107-50E,united_states,navy_carrier_based_aircraft,sunk
+13,1945-01-12,COAST DEFENSE VESSEL NO 23,frigate,800,14-15N,109-10E,united_states,navy_carrier_based_aircraft,sunk
+14,1945-01-12,COAST DEFENSE VESSEL NO 35,frigate,800,11-10N,108-55E,united_states,navy_carrier_based_aircraft,sunk
+15,1945-01-12,COAST DEFENSE VESSEL NO 43,frigate,800,11-10N,108-55E,united_states,navy_carrier_based_aircraft,sunk
+16,1945-01-12,COAST DEFENSE VESSEL NO 51,frigate,800,14-15N,109-10E,united_states,navy_carrier_based_aircraft,sunk
+17,1945-01-12,SUBMARINE CHASER NO 31,submarine_chaser,440,11-10N,108-55E,united_states,navy_carrier_based_aircraft,sunk
+18,1945-01-12,SUBMARINE CHASER NO 43,submarine_chaser,440,11-53N,109-08E,united_states,navy_carrier_based_aircraft,sunk
+19,1945-01-12,MINESWEEPER NO 101,minesweeper,630,11-10N,108-55E,united_states,navy_carrier_based_aircraft,sunk
+20,1945-01-12,TRANSPORT NO 140,tank_landing_ship,1000,10-20N,107-50E,united_states,navy_carrier_based_aircraft,sunk
+21,1945-01-12,KASHII,training_cruiser,6000,13-50N,109-20E,united_states,navy_carrier_based_aircraft,sunk
+22,1945-01-12,PATROL BOAT NO 103,yacht,840,11-10N,108-55E,united_states,navy_carrier_based_aircraft,sunk
+23,1945-01-13,RO 47,submarine,965,12-08N,154-27E,united_states,surface_craft,sunk
+24,1945-01-14,YURISHIMA,special_minelayer,720,5-51N,103-16E,united_states,submarine,sunk
+25,1945-01-15,HATAKAZE,destroyer,1270,22-37N,120-15E,united_states,navy_carrier_based_aircraft,sunk
+26,1945-01-15,TSUGA,old_destroyer,820,23-33N,119-33E,united_states,navy_carrier_based_aircraft,sunk
+27,1945-01-15,TRANSPORT NO 14,high_speed_transport,1500,22-37N,120-15E,united_states,navy_carrier_based_aircraft,sunk
+28,1945-01-17,TRANSPORT NO 15,high_speed_transport,1500,31-09N,130-29E,united_states,"submarine,navy_carrier_based_aircraft",sunk
+29,1945-01-21,TRANSPORT NO 101,tank_landing_ship,1000,22-37N,120-15E,united_states,navy_carrier_based_aircraft,sunk
+30,1945-01-21,TRANSPORT NO 102,tank_landing_ship,1000,11-03N,123-05E,united_states,navy_carrier_based_aircraft,sunk
+31,1945-01-24,SHIGURE,destroyer,1580,6-00N,103-48E,united_states,submarine,sunk
+32,1945-01-27,SPECIAL MINESWEEPER NO 102,special_minesweeper,174,8-37S,115-39E,united_states,submarine,sunk
+33,1945-01-28,KUME,frigate,900,33-56N,123-06E,united_states,submarine,sunk
+34,1945-01-31,RO 115,submarine,525,13-20N,119-20S,united_states,surface_craft,sunk
+35,1945-01-31,UME,destroyer,2100,22-30N,120-00E,united_states,army_aircraft,sunk
+36,1945-02-01,TRANSPORT NO 115,tank_landing_ship,1000,20-00N,121-00E,united_states,army_aircraft,sunk
+37,1945-02-02,COAST DEFENSE VESSEL NO 144,frigate,800,4-32N,104-30E,united_states,submarine,sunk
+38,1945-02-07,RO 55,submarine,889,15-27N,119-25E,united_states,surface_craft,sunk
+39,1945-02-07,COAST DEFENSE VESSEL NO 53,frigate,800,12-04N,109-22E,united_states,submarine,sunk
+40,1945-02-09,I 41,submarine,2212,18-50N,121-40E,united_states,submarine,sunk
+41,1945-02-11,RO 112,submarine,525,18-53N,121-50E,united_states,submarine,sunk
+42,1945-02-12,RO 113,submarine,525,19-10N,121-23E,united_states,submarine,sunk
+43,1945-02-14,COAST DEFENSE VESSEL NO 9,frigate,800,34-48N,125-58E,united_states,submarine,sunk
+44,1945-02-14,SPECIAL SUBMARINE CHASER NO 4,special_submarine_chaser,100,8-20S,115-45E,united_states,submarine,sunk
+45,1945-02-14,SPECIAL SUBMARINE CHASER NO 144,special_submarine_chaser,100,8-20S,115-45E,united_states,submarine,sunk
+46,1945-02-16,NARIU,special_minelayer,720,32-10N,135-54E,united_states,submarine,sunk
+47,1945-02-17,TRANSPORT NO 114,tank_landing_ship,1000,23-04N,120-30E,united_states,army_aircraft,sunk
+48,1945-02-17,COAST DEFENSE VESSEL NO 56,frigate,750,33-53N,139-43E,united_states,submarine,sunk
+49,1945-02-20,NOKAZE,destroyer,1300,12-48N,109-38E,united_states,submarine,sunk
+50,1945-02-23,SUBMARINE CHASER NO 35,submarine_chaser,440,10-15N,107-31E,united_states,army_aircraft,sunk
+51,1945-02-23,YAKU,frigate,900,12-39N,109-29E,united_states,submarine,sunk
+52,1945-02-24,RO 49,submarine,965,32-40N,132-33E,united_states,submarine,sunk
+53,1945-02-25,I 370,submarine,1470,22-45N,141-27E,united_states,surface_craft,sunk
+54,1945-02-25,RO 43,submarine,965,25-07N,140-19E,united_states,navy_carrier_based_aircraft,sunk
+55,1945-02-25,SHONAN,frigate,900,17-08N,110-01E,united_states,submarine,sunk
+56,1945-02-26,I 368,submarine,1470,24-43N,140-37E,united_states,navy_carrier_based_aircraft,sunk
+57,1945-03-01,MANAZURU,torpedo_boat,527,26-17N,127-35E,united_states,navy_carrier_based_aircraft,sunk
+58,1945-03-01,TSUBAME,special_minelayer,450,24-23N,124-12E,united_states,navy_carrier_based_aircraft,sunk
+59,1945-03-02,TRANSPORT NO 143,tank_landing_ship,1000,23-35N,121-35E,united_states,army_aircraft,probably_sunk
+60,1945-03-03,HARIO,miscellaneous_auxiliary,4000,18-10N,109-40E,australia,mine,sunk
+61,1945-03-04,SUBMARINE CHASER NO 8,submarine_chaser,290,4-04N,100-35E,great_britain,submarine,sunk
+62,1945-03-05,SPECIAL SUBMARINE CHASER NO 110,special_submarine_chaser,100,8-36S,119-19E,united_states,army_aircraft,sunk
+63,1945-03-05,MINESWEEPER NO 15,minesweeper,492,29-30N,129-33E,united_states,submarine,sunk
+64,1945-03-08,COAST DEFENSE VESSEL NO 69,frigate,800,19-02N,110-56E,united_states,army_aircraft,sunk
+65,1945-03-13,COAST DEFENSE VESSEL NO 66,frigate,880,23-30N,117-10E,united_states,army_aircraft,sunk
+66,1945-03-18,TRANSPORT NO 18,high_speed_transport,1500,26-33N,127-11E,united_states,submarine,sunk
+67,1945-03-19,SUMA,river_gunboat,625,32-00N,120-00E,united_states,army_mine,sunk
+68,1945-03-21,SUBMARINE CHASER NO 33,submarine_chaser,300,11-50N,109-18E,united_states,army_aircraft,sunk
+69,1945-03-21,TATEISHI,repair_ship,2000,11-50N,109-18E,united_states,army_aircraft,sunk
+70,1945-03-22,I 371,submarine,1660,22-57N,132-19E,united_states,surface_craft,sunk
+71,1945-03-24,COAST DEFENSE VESSEL NO 68,frigate,800,28-25N,124-32E,united_states,navy_carrier_based_aircraft,sunk
+72,1945-03-24,TOMOZURU,frigate,527,28-25N,124-32E,united_states,navy_carrier_based_aircraft,sunk
+73,1945-03-26,SUBMARINE CHASER NO 34,submarine_chaser,300,10-35N,94-45E,great_britain,surface_craft,sunk
+74,1945-03-26,SUBMARINE CHASER NO 63,submarine_chaser,300,10-35N,94-45E,great_britain,surface_craft,sunk
+75,1945-03-27,SPECIAL MINELAYER NO 1,special_minelayer,500,3-52N,98-45E,great_britain,mine,sunk
+76,1945-03-27,ODATE,repair_ship,1564,30-40N,127-50E,united_states,submarine,sunk
+77,1945-03-28,COAST DEFENSE VESSEL NO 33,frigate,800,31-45N,131-40E,united_states,navy_carrier_based_aircraft,sunk
+78,1945-03-28,MINESWEEPER NO 11,minesweeper,492,5-10S,119-05E,united_states,army_aircraft,sunk
+79,1945-03-28,PATROL BOAT NO 108,yacht,108,4-15S,119-05E,united_states,army_aircraft,sunk
+80,1945-03-28,MIKURA,frigate,900,31-49N,131-44E,united_states,submarine,sunk
+81,1945-03-29,COAST DEFENSE VESSEL NO 18,frigate,1000,14-30N,109-15E,united_states,army_aircraft,sunk
+82,1945-03-29,COAST DEFENSE VESSEL NO 130,frigate,1000,14-39N,109-16E,united_states,army_aircraft,sunk
+83,1945-03-29,SPECIAL SUBMARINE CHASER NO 192,special_submarine_chaser,100,22-40N,120-15E,united_states,army_aircraft,sunk
+84,1945-03-29,COAST DEFENSE VESSEL NO 84,frigate,1000,14-30N,109-16E,united_states,submarine,sunk
+85,1945-03-30,I 8,submarine,1995,25-29N,128-35E,united_states,surface_craft,sunk
+86,1945-04-02,COAST DEFENSE VESSEL NO 186,frigate,800,28-07N,129-09E,united_states,navy_carrier_based_aircraft,probably_sunk
+87,1945-04-02,TRANSPORT NO 17,high_speed_transport,1500,28-07N,129-09E,united_states,navy_carrier_based_aircraft,sunk
+88,1945-04-02,TRANSPORT NO 145,tank_landing_ship,1000,28-07N,129-09E,united_states,navy_carrier_based_aircraft,sunk
+89,1945-04-04,RO 41,submarine,965,26-22N,126-30E,united_states,surface_craft,sunk
+90,1945-04-04,RO 64,submarine,988,34-14N,132-16S,united_states,army_mine,sunk
+91,1945-04-04,RO 67,submarine,988,34-00N,133-00S,united_states,army_mine,sunk
+92,1945-04-04,MOKUTO,frigate,900,33-53N,131-03E,united_states,army_mine,sunk
+93,1945-04-06,AMATSUKAZE,destroyer,1900,24-30N,118-10E,united_states,army_aircraft,sunk
+94,1945-04-06,COAST DEFENSE VESSEL NO 1,frigate,1000,24-30N,118-10E,united_states,army_aircraft,sunk
+95,1945-04-06,COAST DEFENSE VESSEL NO 134,frigate,1000,24-30N,118-10E,united_states,army_aircraft,sunk
+96,1945-04-06,MINESWEEPER NO 12,minesweeper,630,8-13S,119-145,united_states,submarine,sunk
+97,1945-04-07,YAMATO,battleship,63000,30-54N,128-10E,united_states,navy_carrier_based_aircraft,sunk
+98,1945-04-07,YAHAGI,light_cruiser,7000,30-54N,128-10E,united_states,navy_carrier_based_aircraft,sunk
+99,1945-04-07,ASASHIMO,destroyer,2100,31-00N,128-00S,united_states,navy_carrier_based_aircraft,sunk
+100,1945-04-07,HAMAKAZE,destroyer,1900,31-00N,128-00E,united_states,navy_carrier_based_aircraft,sunk
+101,1945-04-07,ISOKAZE,destroyer,1900,31-00N,128-00E,united_states,navy_carrier_based_aircraft,sunk
+102,1945-04-07,KASUMI,destroyer,1850,31-00N,128-00E,united_states,navy_carrier_based_aircraft,sunk
+103,1945-04-07,ISUZU,light_cruiser,5700,7-38S,118-09E,united_states,submarine,sunk
+104,1945-04-08,RO 46,submarine,965,26-09N,130-21E,united_states,surface_craft,sunk
+105,1945-04-08,SPECIAL SUBMARINE CHASER NO 101,special_submarine_chaser,100,4-35S,122-17E,united_states,army_aircraft,sunk
+106,1945-04-09,MINESWEEPER NO 3,minesweeper,615,39-06N,141-57E,united_states,submarine,sunk
+107,1945-04-10,I 44,submarine,2212,23-12N,132-23E,united_states,surface_craft,sunk
+108,1945-04-11,SUBMARINE CHASER NO 7,submarine_chaser,270,8-57N,93-38E,great_britain,army_aircraft,sunk
+109,1945-04-13,SPECIAL MINESWEEPER NO 104,special_minesweeper,215,8-05S,115-06E,great_britain,submarine,sunk
+110,1945-04-14,COAST DEFENSE VESSEL NO 31,frigate,800,33-25N,126-15E,united_states,submarine,sunk
+111,1945-04-14,NOMI,frigate,900,33-25N,126-15E,united_states,submarine,sunk
+112,1945-04-16,COAST DEFENSE VESSEL NO 73,frigate,800,39-36N,142-05E,united_states,submarine,sunk
+113,1945-04-17,I 56,submarine,2140,26-42N,130-38E,united_states,"navy_carrier_based_aircraft,surface_craft",sunk
+114,1945-04-17,RO 56,submarine,889,19-17N,166-35E,united_states,submarine,sunk
+115,1945-04-25,MINESWEEPER NO 41,minesweeper,492,25-53N,121-08E,united_states,submarine,sunk
+116,1945-04-26,SPECIAL MINESWEEPER NO 3,special_minesweeper,215,4-50S,115-40E,great_britain,submarine,sunk
+117,1945-04-28,SUBMARINE CHASER NO 17,submarine_chaser,440,32-34N,128-52E,united_states,submarine,sunk
+118,1945-04-28,TRANSPORT NO 146,tank_landing_ship,1000,32-24N,128-40E,united_states,submarine,sunk
+119,1945-04-28,HATSUSHIMA,repair_ship,2000,33-58N,136-17E,united_states,submarine,sunk
+120,1945-04-29,RO 109,submarine,525,24-15N,131-16E,united_states,navy_carrier_based_aircraft,sunk
+121,1945-05-02,OJIKA,frigate,1000,33-58N,122-58E,united_states,submarine,sunk
+122,1945-05-03,COAST DEFENSE VESSEL NO 25,frigate,1000,34-38N,124-15E,united_states,submarine,sunk
+123,1945-05-04,MINESWEEPER NO 20,minesweeper,492,34-16N,123-37E,united_states,submarine,sunk
+124,1945-05-07,MINESWEEPER NO 29,minesweeper,630,34-02N,130-54E,united_states,army_mine,sunk
+125,1945-05-08,SPECIAL SUBMARINE CHASER NO 210,special_submarine_chaser,100,23-00N,115-00E,united_states,army_aircraft,sunk
+126,1945-05-16,HATSUTAKA,minelayer,1500,4-54N,103-28E,united_states,submarine,sunk
+127,1945-05-16,HAGURO,heavy_cruiser,12700,5-00N,99-30E,great_britain,surface_craft,sunk
+128,1945-05-21,MINESWEEPER NO 34,minesweeper,492,6-15S,116-01E,united_states,submarine,sunk
+129,1945-05-22,SUBMARINE CHASER NO 37,submarine_chaser,440,29-45N,129-10E,united_states,navy_carrier_based_aircraft,sunk
+130,1945-05-22,SUBMARINE CHASER NO 58,submarine_chaser,440,29-45N,129-10E,united_states,navy_carrier_based_aircraft,sunk
+131,1945-05-22,TRANSPORT NO 173,tank_landing_ship,1000,29-45N,129-10E,united_states,navy_carrier_based_aircraft,sunk
+132,1945-05-25,SPECIAL MINESWEEPER NO 105,special_minesweeper,200,6-23S,110-55E,great_britain,submarine,sunk
+133,1945-05-26,SPECIAL SUBMARINE CHASER NO 172,special_submarine_chaser,100,36-48N,137-05E,united_states,army_mine,sunk
+134,1945-05-28,COAST DEFENSE VESSEL NO 29,frigate,800,33-07N,129-44E,united_states,army_mine,sunk
+135,1945-05-30,I 12,submarine,2443,22-22N,134-09E,united_states,navy_carrier_based_aircraft,sunk
+136,1945-05-30,I 361,submarine,1470,Off Japan,,unknown,unknown,sunk
+137,1945-06-04,SPECIAL SUBMARINE CHASER NO 112,special_submarine_chaser,300,5-00S,116-04E,united_states,army_aircraft,sunk
+138,1945-06-06,SPECIAL SUBMARINE CHASER NO 195,special_submarine_chaser,100,37-10N,137-05E,united_states,army_mine,sunk
+139,1945-06-08,ASHIGARA,heavy_cruiser,12700,1-59S,104-57E,great_britain,submarine,sunk
+140,1945-06-09,COAST DEFENSE VESSEL NO 41,frigate,800,34-18N,127-18E,united_states,submarine,sunk
+141,1945-06-10,I 122,submarine,1142,37-29N,137-25E,united_states,submarine,sunk
+142,1945-06-11,SPECIAL SUBMARINE CHASER NO 237,special_submarine_chaser,100,34-35N,132-20E,united_states,navy_land_based_aircraft,sunk
+143,1945-06-12,SUBMARINE CHASER NO 57,submarine_chaser,440,6-20N,94-45E,great_britain,surface_craft,sunk
+144,1945-06-12,TRANSPORT NO 149,tank_landing_ship,1000,6-20N,94-45E,great_britain,surface_craft,sunk
+145,1945-06-23,SHUTTLE BOAT NO 833,miscellaneous_auxiliary,200,5-50S,114-18E,united_states,submarine,sunk
+146,1945-06-23,SPECIAL SUBMARINE CHASER NO 42,special_submarine_chaser,100,5-50S,114-18E,united_states,submarine,sunk
+147,1945-06-23,SPECIAL SUBMARINE CHASER NO 113,special_submarine_chaser,200,5-50S,114-18E,united_states,submarine,sunk
+148,1945-06-27,I 165,submarine,1635,15-28N,153-39E,united_states,navy_land_based_aircraft,sunk
+149,1945-06-27,SUBMARINE CHASER NO 2,submarine_chaser,300,7-25S,116-00E,united_states,submarine,sunk
+150,1945-06-28,ENOKI,destroyer,1260,35-26N,135-44E,united_states,army_mine,sunk
+151,1945-07-01,COAST DEFENSE VESSEL NO 72,frigate,800,38-08N,124-38E,united_states,submarine,sunk
+152,1945-07-02,SPECIAL SUBMARINE CHASER NO 188,special_submarine_chaser,100,33-59N,130-52E,united_states,army_mine,sunk
+153,1945-07-05,SPECIAL SUBMARINE CHASER NO 37,special_submarine_chaser,100,8-10S,114-50E,united_states,submarine,sunk
+154,1945-07-07,NARA,destroyer,1000,33-54N,130-49E,united_states,army_mine,sunk
+155,1945-07-09,SPECIAL SUBMARINE CHASER NO 50,special_submarine_chaser,100,2-13N,105-03E,united_states,submarine,sunk
+156,1945-07-10,MINESWEEPER NO 27,minesweeper,630,39-20N,142-07E,united_states,submarine,sunk
+157,1945-07-11,SAKURA,destroyer,1000,35-50N,135-20E,united_states,army_mine,sunk
+158,1945-07-14,TACHIBANA,destroyer,1000,41-48N,140-41E,united_states,navy_carrier_based_aircraft,sunk
+159,1945-07-14,COAST DEFENSE VESSEL NO 65,frigate,800,42-21N,140-59E,united_states,navy_carrier_based_aircraft,sunk
+160,1945-07-14,COAST DEFENSE VESSEL NO 74,frigate,800,42-21N,140-59E,united_states,navy_carrier_based_aircraft,sunk
+161,1945-07-14,COAST DEFENSE VESSEL NO 219,frigate,800,41-48N,140-41E,united_states,navy_carrier_based_aircraft,sunk
+162,1945-07-14,I 351,submarine,2650,4-30N,110-00E,united_states,submarine,sunk
+163,1945-07-15,MINESWEEPER NO 24,minesweeper,630,41-38N,141-00E,united_states,navy_carrier_based_aircraft,sunk
+164,1945-07-15,I 13,submarine,2640,34-28N,150-55E,united_states,"navy_carrier_based_aircraft,surface_craft",sunk
+165,1945-07-16,KARI,torpedo_boat,595,5-48S,115-53E,united_states,submarine,sunk
+166,1945-07-18,KASUGA,old_heavy_cruiser,7080,35-18N,139-40E,united_states,navy_carrier_based_aircraft,sunk
+167,1945-07-18,COAST DEFENSE VESSEL NO 112,frigate,800,46-03N,142-16E,united_states,submarine,sunk
+168,1945-07-20,MINESWEEPER NO 39,minesweeper,630,35-01N,125-42E,united_states,submarine,sunk
+169,1945-07-23,SPECIAL SUBMARINE CHASER NO 117,special_submarine_chaser,200,8-10S,115-29E,united_states,submarine,sunk
+170,1945-07-24,AMAGI,aircraft_carrier,18500,34-11N,132-30E,united_states,navy_carrier_based_aircraft,sunk
+171,1945-07-24,TONE,heavy_cruiser,12000,34-14N,132-27E,united_states,navy_carrier_based_aircraft,sunk
+172,1945-07-24,HYUGA,battleship,34500,34-10N,132-33E,united_states,navy_carrier_based_aircraft,sunk
+173,1945-07-24,KAIYO,escort_aircraft_carrier,17000,33-21N,131-32E,united_states,"army_aircraft,army_mine,navy_carrier_based_aircraft",sunk
+174,1945-07-25,PATROL BOAT NO 2,old_destroyer,750,7-07S,115-40E,great_britain,submarine,sunk
+175,1945-07-27,TRANSPORT NO 176,tank_landing_ship,1000,31-00N,130-33E,united_states,army_aircraft,sunk
+176,1945-07-28,AOBA,heavy_cruiser,8800,34-13N,132-31E,united_states,navy_carrier_based_aircraft,sunk
+177,1945-07-28,I 372,submarine,1660,33-00N,133-00E,united_states,navy_carrier_based_aircraft,sunk
+178,1945-07-28,HARUNA,battleship,31000,34-15N,132-29E,united_states,navy_carrier_based_aircraft,sunk
+179,1945-07-28,ISE,battleship,34500,34-12N,132-31E,united_states,navy_carrier_based_aircraft,sunk
+180,1945-07-28,OYODO,light_cruiser,8500,34-13N,132-25E,united_states,navy_carrier_based_aircraft,sunk
+181,1945-07-28,NASHI,destroyer,850,34-14N,132-30E,united_states,navy_carrier_based_aircraft,sunk
+182,1945-07-28,COAST DEFENSE VESSEL NO 4,frigate,800,34-00N,134-50E,great_britain,aircraft,sunk
+183,1945-07-28,COAST DEFENSE VESSEL NO 30,frigate,800,34-43N,136-43E,great_britain,aircraft,sunk
+184,1945-07-28,IWATE,old_heavy_cruiser,9180,34-14N,132-30E,united_states,navy_carrier_based_aircraft,sunk
+185,1945-07-28,IZUMO,old_heavy_cruiser,9180,34-14N,132-30E,united_states,navy_carrier_based_aircraft,sunk
+186,1945-07-29,SPECIAL SUBMARINE CHASER NO 207,special_submarine_chaser,100,32-00N,130-00E,united_states,army_aircraft,sunk
+187,1945-07-30,OKINAWA,frigate,900,35-30N,135-21E,united_states,navy_carrier_based_aircraft,sunk
+188,1945-07-30,HATSUSHIMO,destroyer,1600,35-33N,135-12E,united_states,army_mine,sunk
+189,1945-08-07,COAST DEFENSE VESSEL NO 39,frigate,800,35-06N,129-03E,united_states,army_aircraft,sunk
+190,1945-08-07,SPECIAL SUBMARINE CHASER NO 66,special_submarine_chaser,100,7-23N,151-53E,united_states,army_aircraft,sunk
+191,1945-08-09,AMAKUSA,frigate,860,38-26N,141-30E,"united_states,great_britain",navy_carrier_based_aircraft,sunk
+192,1945-08-09,INAGI,frigate,900,38-26N,141-30E,united_states,navy_carrier_based_aircraft,sunk
+193,1945-08-09,MINESWEEPER NO 1,minesweeper,615,38-26N,141-30E,united_states,navy_carrier_based_aircraft,sunk
+194,1945-08-09,MINESWEEPER NO 33,minesweeper,630,38-26N,141-30E,united_states,navy_carrier_based_aircraft,sunk
+195,1945-08-09,TRANSPORT NO 21,high_speed_transport,1500,33-59N,132-31E,united_states,army_aircraft,sunk
+196,1945-08-09,COAST DEFENSE VESSEL NO 82,frigate,800,41-21N,131-12E,russia,aircraft,sunk
+197,1945-08-10,SUBMARINE CHASER NO 42,submarine_chaser,440,38-26N,141-30E,united_states,navy_carrier_based_aircraft,sunk
+198,1945-08-13,I 373,submarine,1660,29-02N,123-53E,united_states,submarine,sunk
+199,1945-08-13,COAST DEFENSE VESSEL NO 6,frigate,800,42-11N,142-14E,united_states,submarine,sunk
+200,1945-08-14,COAST DEFENSE VESSEL NO 13,frigate,800,35-42N,134-35E,united_states,submarine,sunk
+201,1945-08-14,COAST DEFENSE VESSEL NO 47,frigate,800,35-42N,134-36E,united_states,submarine,sunk
+202,1945-08-15,KANJU,frigate,860,39-10N,127-27E,russia,aircraft,sunk
